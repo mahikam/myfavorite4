@@ -1,0 +1,72 @@
+body {
+    text-align: center;
+    padding-top: 50px;
+    font-size: 17px;
+    background: linear-gradient(#ceace3 5%, #6d4885 100%);
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+p {
+    font-family: 'Comfortaa', cursive;
+    color: white;
+}
+
+#hobbyimg {
+    border-radius: 50%;
+    width: 300px;
+}
+
+#bakingh1 {
+    font-variant: small-caps;
+    font-size: 50px;
+    color: #006064;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-size: 25px;
+}
+
+.links: hover {
+    background-color: #faf09b;
+}
+a {
+    text-decoration: none;
+}
+.article:hover{
+    color: darkseagreen;
+}
+html {
+ scroll-behavior: smooth;
+}
+.line {
+    height: 6px;
+    background-color: white;
+    width: 70px;
+    margin: 8px auto;
+}
+.workimg {
+    width: 400px;
+    height: 300px;
+}
+.alink {
+    transition: transform .2s;
+}
+.alink:hover {
+    transform: scale(0.9);
+}
